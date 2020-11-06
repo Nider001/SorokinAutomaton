@@ -1,0 +1,74 @@
+{
+  "UseRegex": false,
+  "Transitions": [
+    {
+      "Key": {
+        "Key": "s0",
+        "Value": "t"
+      },
+      "Value": "d7"
+    },
+    {
+      "Key": {
+        "Key": "d0",
+        "Value": "r"
+      },
+      "Value": "d1"
+    },
+    {
+      "Key": {
+        "Key": "d1",
+        "Value": "u"
+      },
+      "Value": "d2"
+    },
+    {
+      "Key": {
+        "Key": "d2",
+        "Value": "e"
+      },
+      "Value": "f0"
+    },
+    {
+      "Key": {
+        "Key": "s0",
+        "Value": "f"
+      },
+      "Value": "d3"
+    },
+    {
+      "Key": {
+        "Key": "d3",
+        "Value": "a"
+      },
+      "Value": "d4"
+    },
+    {
+      "Key": {
+        "Key": "d4",
+        "Value": "l"
+      },
+      "Value": "d5"
+    },
+    {
+      "Key": {
+        "Key": "d5",
+        "Value": "s"
+      },
+      "Value": "d6"
+    },
+    {
+      "Key": {
+        "Key": "d6",
+        "Value": "e"
+      },
+      "Value": "f0"
+    }
+  ],
+  "Start": [
+    "s0"
+  ],
+  "Finish": [
+    "f0"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "UseRegex": true,
+  "Transitions": [
+    {
+      "Key": {
+        "Key": "s0",
+        "Value": "[a-zA-Z_]"
+      },
+      "Value": "f0"
+    },
+    {
+      "Key": {
+        "Key": "f0",
+        "Value": "[a-zA-Z_0-9]"
+      },
+      "Value": "f0"
+    }
+  ],
+  "Start": [
+    "s0"
+  ],
+  "Finish": [
+    "f0"
+  ]
+}

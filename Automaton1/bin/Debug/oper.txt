@@ -1,0 +1,112 @@
+{
+  "UseRegex": false,
+  "Transitions": [
+    {
+      "Key": {
+        "Key": "s0",
+        "Value": "+"
+      },
+      "Value": "f0"
+    },
+    {
+      "Key": {
+        "Key": "s0",
+        "Value": "-"
+      },
+      "Value": "f0"
+    },
+    {
+      "Key": {
+        "Key": "s0",
+        "Value": "*"
+      },
+      "Value": "f0"
+    },
+    {
+      "Key": {
+        "Key": "s0",
+        "Value": "/"
+      },
+      "Value": "f0"
+    },
+    {
+      "Key": {
+        "Key": "s0",
+        "Value": "%"
+      },
+      "Value": "f0"
+    },
+    {
+      "Key": {
+        "Key": "s0",
+        "Value": "!"
+      },
+      "Value": "f0"
+    },
+    {
+      "Key": {
+        "Key": "s1",
+        "Value": "="
+      },
+      "Value": "f1"
+    },
+    {
+      "Key": {
+        "Key": "s1",
+        "Value": ">"
+      },
+      "Value": "f1"
+    },
+    {
+      "Key": {
+        "Key": "s1",
+        "Value": "<"
+      },
+      "Value": "f1"
+    },
+    {
+      "Key": {
+        "Key": "f1",
+        "Value": "="
+      },
+      "Value": "f2"
+    },
+    {
+      "Key": {
+        "Key": "s2",
+        "Value": "+"
+      },
+      "Value": "d0"
+    },
+    {
+      "Key": {
+        "Key": "d0",
+        "Value": "+"
+      },
+      "Value": "f0"
+    },
+    {
+      "Key": {
+        "Key": "s2",
+        "Value": "-"
+      },
+      "Value": "d1"
+    },
+    {
+      "Key": {
+        "Key": "d1",
+        "Value": "-"
+      },
+      "Value": "f0"
+    }
+  ],
+  "Start": [
+    "s0",
+    "s1",
+    "s2"
+  ],
+  "Finish": [
+    "f0",
+    "f1"
+  ]
+}

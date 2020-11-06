@@ -1,0 +1,61 @@
+{
+  "UseRegex": true,
+  "Transitions": [
+    {
+      "Key": {
+        "Key": "s0",
+        "Value": "[1-9]"
+      },
+      "Value": "d0"
+    },
+    {
+      "Key": {
+        "Key": "d0",
+        "Value": "[0-9]"
+      },
+      "Value": "d0"
+    },
+    {
+      "Key": {
+        "Key": "d0",
+        "Value": "."
+      },
+      "Value": "d2"
+    },
+    {
+      "Key": {
+        "Key": "s1",
+        "Value": "0"
+      },
+      "Value": "d1"
+    },
+    {
+      "Key": {
+        "Key": "d1",
+        "Value": "."
+      },
+      "Value": "d2"
+    },
+    {
+      "Key": {
+        "Key": "d2",
+        "Value": "[0-9]"
+      },
+      "Value": "f0"
+    },
+    {
+      "Key": {
+        "Key": "f0",
+        "Value": "[0-9]"
+      },
+      "Value": "f0"
+    }
+  ],
+  "Start": [
+    "s0",
+    "s1"
+  ],
+  "Finish": [
+    "f0"
+  ]
+}

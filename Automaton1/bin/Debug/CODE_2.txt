@@ -1,0 +1,17 @@
+bool checker = false;
+double x = 0.0;
+int moves = 0;
+
+while (!checker)
+{
+	x += 0.1;
+	
+	if (x > 3)
+	{
+		checker = true;
+	}
+	else
+	{
+		moves++;
+	}
+}

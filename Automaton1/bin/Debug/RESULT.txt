@@ -1,0 +1,102 @@
+[
+  {
+    "Key": "keyWord",
+    "Value": "var"
+  },
+  {
+    "Key": "id",
+    "Value": "temp"
+  },
+  {
+    "Key": "assign",
+    "Value": "="
+  },
+  {
+    "Key": "constInt",
+    "Value": "0"
+  },
+  {
+    "Key": "special",
+    "Value": ";"
+  },
+  {
+    "Key": "keyWord",
+    "Value": "for"
+  },
+  {
+    "Key": "bracket",
+    "Value": "("
+  },
+  {
+    "Key": "keyWord",
+    "Value": "int"
+  },
+  {
+    "Key": "id",
+    "Value": "i"
+  },
+  {
+    "Key": "assign",
+    "Value": "="
+  },
+  {
+    "Key": "constInt",
+    "Value": "0"
+  },
+  {
+    "Key": "special",
+    "Value": ";"
+  },
+  {
+    "Key": "id",
+    "Value": "i"
+  },
+  {
+    "Key": "oper",
+    "Value": "<"
+  },
+  {
+    "Key": "constInt",
+    "Value": "10"
+  },
+  {
+    "Key": "special",
+    "Value": ";"
+  },
+  {
+    "Key": "id",
+    "Value": "i"
+  },
+  {
+    "Key": "oper",
+    "Value": "++"
+  },
+  {
+    "Key": "bracket",
+    "Value": ")"
+  },
+  {
+    "Key": "special",
+    "Value": "{"
+  },
+  {
+    "Key": "id",
+    "Value": "temp"
+  },
+  {
+    "Key": "assign",
+    "Value": "+="
+  },
+  {
+    "Key": "id",
+    "Value": "i"
+  },
+  {
+    "Key": "special",
+    "Value": ";"
+  },
+  {
+    "Key": "special",
+    "Value": "}"
+  }
+]

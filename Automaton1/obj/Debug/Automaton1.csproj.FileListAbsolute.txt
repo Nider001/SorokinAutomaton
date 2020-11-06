@@ -1,0 +1,45 @@
+C:\Users\sorokin_da\source\repos\Automaton1\Automaton1\bin\Debug\Automaton1.exe.config
+C:\Users\sorokin_da\source\repos\Automaton1\Automaton1\bin\Debug\Automaton1.exe
+C:\Users\sorokin_da\source\repos\Automaton1\Automaton1\bin\Debug\Automaton1.pdb
+C:\Users\sorokin_da\source\repos\Automaton1\Automaton1\obj\Debug\Automaton1.csprojAssemblyReference.cache
+C:\Users\sorokin_da\source\repos\Automaton1\Automaton1\obj\Debug\Automaton1.exe
+C:\Users\sorokin_da\source\repos\Automaton1\Automaton1\obj\Debug\Automaton1.pdb
+D:\Дмитрий\Информатика\Четвертый курс\Теория формальных языков\Automaton1\Automaton1\bin\Debug\Automaton1.exe.config
+D:\Дмитрий\Информатика\Четвертый курс\Теория формальных языков\Automaton1\Automaton1\bin\Debug\Automaton1.exe
+D:\Дмитрий\Информатика\Четвертый курс\Теория формальных языков\Automaton1\Automaton1\bin\Debug\Automaton1.pdb
+D:\Дмитрий\Информатика\Четвертый курс\Теория формальных языков\Automaton1\Automaton1\obj\Debug\Automaton1.csprojAssemblyReference.cache
+D:\Дмитрий\Информатика\Четвертый курс\Теория формальных языков\Automaton1\Automaton1\obj\Debug\Automaton1.csproj.CoreCompileInputs.cache
+D:\Дмитрий\Информатика\Четвертый курс\Теория формальных языков\Automaton1\Automaton1\obj\Debug\Automaton1.exe
+D:\Дмитрий\Информатика\Четвертый курс\Теория формальных языков\Automaton1\Automaton1\obj\Debug\Automaton1.pdb
+D:\Дмитрий\Информатика\Четвертый курс\Теория формальных языков\Automaton1\Automaton1\bin\Debug\Newtonsoft.Json.dll
+D:\Дмитрий\Информатика\Четвертый курс\Теория формальных языков\Automaton1\Automaton1\bin\Debug\Newtonsoft.Json.xml
+D:\Дмитрий\Информатика\Четвертый курс\Теория формальных языков\Automaton1\Automaton1\obj\Debug\Automaton1.csproj.CopyComplete
+C:\Users\sorokin_da\Desktop\Automaton1_v2.0\Automaton1\bin\Debug\Automaton1.exe.config
+C:\Users\sorokin_da\Desktop\Automaton1_v2.0\Automaton1\bin\Debug\Automaton1.exe
+C:\Users\sorokin_da\Desktop\Automaton1_v2.0\Automaton1\bin\Debug\Automaton1.pdb
+C:\Users\sorokin_da\Desktop\Automaton1_v2.0\Automaton1\bin\Debug\Newtonsoft.Json.dll
+C:\Users\sorokin_da\Desktop\Automaton1_v2.0\Automaton1\bin\Debug\Newtonsoft.Json.xml
+C:\Users\sorokin_da\Desktop\Automaton1_v2.0\Automaton1\obj\Debug\Automaton1.csprojAssemblyReference.cache
+C:\Users\sorokin_da\Desktop\Automaton1_v2.0\Automaton1\obj\Debug\Automaton1.csproj.CopyComplete
+C:\Users\sorokin_da\Desktop\Automaton1_v2.0\Automaton1\obj\Debug\Automaton1.exe
+C:\Users\sorokin_da\Desktop\Automaton1_v2.0\Automaton1\obj\Debug\Automaton1.pdb
+D:\Дмитрий\Информатика\Четвертый курс\Теория формальных языков\Automaton1_v2.1\Automaton1\bin\Debug\Automaton1.exe.config
+D:\Дмитрий\Информатика\Четвертый курс\Теория формальных языков\Automaton1_v2.1\Automaton1\bin\Debug\Automaton1.exe
+D:\Дмитрий\Информатика\Четвертый курс\Теория формальных языков\Automaton1_v2.1\Automaton1\bin\Debug\Automaton1.pdb
+D:\Дмитрий\Информатика\Четвертый курс\Теория формальных языков\Automaton1_v2.1\Automaton1\bin\Debug\Newtonsoft.Json.dll
+D:\Дмитрий\Информатика\Четвертый курс\Теория формальных языков\Automaton1_v2.1\Automaton1\bin\Debug\Newtonsoft.Json.xml
+D:\Дмитрий\Информатика\Четвертый курс\Теория формальных языков\Automaton1_v2.1\Automaton1\obj\Debug\Automaton1.csprojAssemblyReference.cache
+D:\Дмитрий\Информатика\Четвертый курс\Теория формальных языков\Automaton1_v2.1\Automaton1\obj\Debug\Automaton1.csproj.CoreCompileInputs.cache
+D:\Дмитрий\Информатика\Четвертый курс\Теория формальных языков\Automaton1_v2.1\Automaton1\obj\Debug\Automaton1.csproj.CopyComplete
+D:\Дмитрий\Информатика\Четвертый курс\Теория формальных языков\Automaton1_v2.1\Automaton1\obj\Debug\Automaton1.exe
+D:\Дмитрий\Информатика\Четвертый курс\Теория формальных языков\Automaton1_v2.1\Automaton1\obj\Debug\Automaton1.pdb
+D:\Дмитрий\Информатика\Четвертый курс\Теория формальных языков\Automaton2\Automaton1\bin\Debug\Automaton1.exe.config
+D:\Дмитрий\Информатика\Четвертый курс\Теория формальных языков\Automaton2\Automaton1\bin\Debug\Automaton1.exe
+D:\Дмитрий\Информатика\Четвертый курс\Теория формальных языков\Automaton2\Automaton1\bin\Debug\Automaton1.pdb
+D:\Дмитрий\Информатика\Четвертый курс\Теория формальных языков\Automaton2\Automaton1\bin\Debug\Newtonsoft.Json.dll
+D:\Дмитрий\Информатика\Четвертый курс\Теория формальных языков\Automaton2\Automaton1\bin\Debug\Newtonsoft.Json.xml
+D:\Дмитрий\Информатика\Четвертый курс\Теория формальных языков\Automaton2\Automaton1\obj\Debug\Automaton1.csprojAssemblyReference.cache
+D:\Дмитрий\Информатика\Четвертый курс\Теория формальных языков\Automaton2\Automaton1\obj\Debug\Automaton1.csproj.CoreCompileInputs.cache
+D:\Дмитрий\Информатика\Четвертый курс\Теория формальных языков\Automaton2\Automaton1\obj\Debug\Automaton1.csproj.CopyComplete
+D:\Дмитрий\Информатика\Четвертый курс\Теория формальных языков\Automaton2\Automaton1\obj\Debug\Automaton1.exe
+D:\Дмитрий\Информатика\Четвертый курс\Теория формальных языков\Automaton2\Automaton1\obj\Debug\Automaton1.pdb

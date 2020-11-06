@@ -1,0 +1,32 @@
+{
+  "UseRegex": false,
+  "Transitions": [
+    {
+      "Key": {
+        "Key": "s0",
+        "Value": ";"
+      },
+      "Value": "f0"
+    },
+    {
+      "Key": {
+        "Key": "s0",
+        "Value": "{"
+      },
+      "Value": "f0"
+    },
+    {
+      "Key": {
+        "Key": "s0",
+        "Value": "}"
+      },
+      "Value": "f0"
+    }
+  ],
+  "Start": [
+    "s0"
+  ],
+  "Finish": [
+    "f0"
+  ]
+}

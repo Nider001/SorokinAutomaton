@@ -1,0 +1,221 @@
+{
+  "UseRegex": false,
+  "Transitions": [
+    {
+      "Key": {
+        "Key": "s0",
+        "Value": "i"
+      },
+      "Value": "d0"
+    },
+    {
+      "Key": {
+        "Key": "d0",
+        "Value": "f"
+      },
+      "Value": "f0"
+    },
+    {
+      "Key": {
+        "Key": "s0",
+        "Value": "w"
+      },
+      "Value": "d1"
+    },
+    {
+      "Key": {
+        "Key": "d1",
+        "Value": "h"
+      },
+      "Value": "d2"
+    },
+    {
+      "Key": {
+        "Key": "d2",
+        "Value": "i"
+      },
+      "Value": "d3"
+    },
+    {
+      "Key": {
+        "Key": "d3",
+        "Value": "l"
+      },
+      "Value": "d4"
+    },
+    {
+      "Key": {
+        "Key": "d4",
+        "Value": "e"
+      },
+      "Value": "f0"
+    },
+    {
+      "Key": {
+        "Key": "s0",
+        "Value": "f"
+      },
+      "Value": "d5"
+    },
+    {
+      "Key": {
+        "Key": "d5",
+        "Value": "o"
+      },
+      "Value": "d6"
+    },
+    {
+      "Key": {
+        "Key": "d6",
+        "Value": "r"
+      },
+      "Value": "f0"
+    },
+    {
+      "Key": {
+        "Key": "s0",
+        "Value": "b"
+      },
+      "Value": "d7"
+    },
+    {
+      "Key": {
+        "Key": "d7",
+        "Value": "o"
+      },
+      "Value": "d8"
+    },
+    {
+      "Key": {
+        "Key": "d8",
+        "Value": "o"
+      },
+      "Value": "d9"
+    },
+    {
+      "Key": {
+        "Key": "d9",
+        "Value": "l"
+      },
+      "Value": "f0"
+    },
+    {
+      "Key": {
+        "Key": "s0",
+        "Value": "e"
+      },
+      "Value": "d10"
+    },
+    {
+      "Key": {
+        "Key": "d10",
+        "Value": "l"
+      },
+      "Value": "d11"
+    },
+    {
+      "Key": {
+        "Key": "d11",
+        "Value": "s"
+      },
+      "Value": "d12"
+    },
+    {
+      "Key": {
+        "Key": "d12",
+        "Value": "e"
+      },
+      "Value": "f0"
+    },
+    {
+      "Key": {
+        "Key": "s0",
+        "Value": "i"
+      },
+      "Value": "d13"
+    },
+    {
+      "Key": {
+        "Key": "d13",
+        "Value": "n"
+      },
+      "Value": "d14"
+    },
+    {
+      "Key": {
+        "Key": "d14",
+        "Value": "t"
+      },
+      "Value": "f0"
+    },
+    {
+      "Key": {
+        "Key": "s0",
+        "Value": "d"
+      },
+      "Value": "d15"
+    },
+    {
+      "Key": {
+        "Key": "d15",
+        "Value": "o"
+      },
+      "Value": "d16"
+    },
+    {
+      "Key": {
+        "Key": "d16",
+        "Value": "u"
+      },
+      "Value": "d17"
+    },
+    {
+      "Key": {
+        "Key": "d17",
+        "Value": "b"
+      },
+      "Value": "d18"
+    },
+    {
+      "Key": {
+        "Key": "d18",
+        "Value": "l"
+      },
+      "Value": "d19"
+    },
+    {
+      "Key": {
+        "Key": "d19",
+        "Value": "e"
+      },
+      "Value": "f0"
+    },
+    {
+      "Key": {
+        "Key": "s0",
+        "Value": "v"
+      },
+      "Value": "d20"
+    },
+    {
+      "Key": {
+        "Key": "d20",
+        "Value": "a"
+      },
+      "Value": "d21"
+    },
+    {
+      "Key": {
+        "Key": "d21",
+        "Value": "r"
+      },
+      "Value": "f0"
+    }
+  ],
+  "Start": [
+    "s0"
+  ],
+  "Finish": [
+    "f0"
+  ]
+}
