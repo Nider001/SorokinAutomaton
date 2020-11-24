@@ -149,7 +149,7 @@ namespace Automaton1
 
                         string json = JsonConvert.SerializeObject(tokens, Formatting.Indented);
 
-                        using (StreamWriter sr = new StreamWriter("CODE_" + i + "_RESULT.txt"))
+                        using (StreamWriter sr = new StreamWriter("CODE_" + i + "_ACTUAL_RESULT.txt"))
                         {
                             sr.Write(json);
                         }
