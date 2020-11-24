@@ -1,0 +1,210 @@
+[
+  {
+    "Key": "keyWord",
+    "Value": "int"
+  },
+  {
+    "Key": "id",
+    "Value": "a"
+  },
+  {
+    "Key": "assign",
+    "Value": "="
+  },
+  {
+    "Key": "constInt",
+    "Value": "123"
+  },
+  {
+    "Key": "special",
+    "Value": ";"
+  },
+  {
+    "Key": "keyWord",
+    "Value": "double"
+  },
+  {
+    "Key": "id",
+    "Value": "b"
+  },
+  {
+    "Key": "assign",
+    "Value": "="
+  },
+  {
+    "Key": "constDouble",
+    "Value": "2.2e5"
+  },
+  {
+    "Key": "special",
+    "Value": ";"
+  },
+  {
+    "Key": "keyWord",
+    "Value": "bool"
+  },
+  {
+    "Key": "id",
+    "Value": "break"
+  },
+  {
+    "Key": "assign",
+    "Value": "="
+  },
+  {
+    "Key": "constBool",
+    "Value": "false"
+  },
+  {
+    "Key": "special",
+    "Value": ";"
+  },
+  {
+    "Key": "keyWord",
+    "Value": "while"
+  },
+  {
+    "Key": "bracket",
+    "Value": "("
+  },
+  {
+    "Key": "id",
+    "Value": "b"
+  },
+  {
+    "Key": "oper",
+    "Value": ">"
+  },
+  {
+    "Key": "id",
+    "Value": "a"
+  },
+  {
+    "Key": "oper",
+    "Value": "&&"
+  },
+  {
+    "Key": "oper",
+    "Value": "!"
+  },
+  {
+    "Key": "id",
+    "Value": "break"
+  },
+  {
+    "Key": "bracket",
+    "Value": ")"
+  },
+  {
+    "Key": "special",
+    "Value": "{"
+  },
+  {
+    "Key": "id",
+    "Value": "b"
+  },
+  {
+    "Key": "assign",
+    "Value": "="
+  },
+  {
+    "Key": "id",
+    "Value": "b"
+  },
+  {
+    "Key": "oper",
+    "Value": "-"
+  },
+  {
+    "Key": "id",
+    "Value": "a"
+  },
+  {
+    "Key": "special",
+    "Value": ";"
+  },
+  {
+    "Key": "keyWord",
+    "Value": "if"
+  },
+  {
+    "Key": "bracket",
+    "Value": "("
+  },
+  {
+    "Key": "id",
+    "Value": "b"
+  },
+  {
+    "Key": "oper",
+    "Value": "<="
+  },
+  {
+    "Key": "constInt",
+    "Value": "0"
+  },
+  {
+    "Key": "oper",
+    "Value": "&&"
+  },
+  {
+    "Key": "id",
+    "Value": "a"
+  },
+  {
+    "Key": "oper",
+    "Value": ">"
+  },
+  {
+    "Key": "constInt",
+    "Value": "0"
+  },
+  {
+    "Key": "bracket",
+    "Value": ")"
+  },
+  {
+    "Key": "special",
+    "Value": "{"
+  },
+  {
+    "Key": "id",
+    "Value": "break"
+  },
+  {
+    "Key": "special",
+    "Value": ";"
+  },
+  {
+    "Key": "special",
+    "Value": "}"
+  },
+  {
+    "Key": "id",
+    "Value": "a"
+  },
+  {
+    "Key": "assign",
+    "Value": "="
+  },
+  {
+    "Key": "id",
+    "Value": "a"
+  },
+  {
+    "Key": "oper",
+    "Value": "/"
+  },
+  {
+    "Key": "constDouble",
+    "Value": "15.0"
+  },
+  {
+    "Key": "special",
+    "Value": ";"
+  },
+  {
+    "Key": "special",
+    "Value": "}"
+  }
+]

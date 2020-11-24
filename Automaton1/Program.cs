@@ -140,7 +140,7 @@ namespace Automaton1
                             {
                                 //throw new ArgumentException("Error: invalid code at '" + code[iter] + "...'");
 
-                                using (StreamWriter sr = new StreamWriter("CODE_" + i + "_RESULT.txt"))
+                                using (StreamWriter sr = new StreamWriter("CODE_" + i + "_ACTUAL_RESULT.txt"))
                                 {
                                     sr.Write("Error: invalid code at '" + code[iter] + "...' (character №" + iter + ")");
                                 }
