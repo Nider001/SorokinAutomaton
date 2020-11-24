@@ -16,6 +16,16 @@ namespace Automaton1
 
         static void Main(string[] args)
         {
+            ProgramTests.TestSpecial();
+            ProgramTests.TestKeyWord();
+            ProgramTests.TestConstBool();
+            ProgramTests.TestConstDouble();
+            ProgramTests.TestConstInt();
+            ProgramTests.TestId();
+            ProgramTests.TestAssign();
+            ProgramTests.TestOperator();
+            ProgramTests.TestBracket();
+
             Automaton special = null;
             Automaton keyWord = null;
             Automaton constBool = null;
@@ -83,52 +93,71 @@ namespace Automaton1
 
             //=================================================================================
 
-            string code = "";
-            Pair<bool, int> state = new Pair<bool, int>(false, 0);
-            int iter = 0;
+            int i = 0;
 
-            List<Pair<string, string>> tokens = new List<Pair<string, string>>();
-
-            using (StreamReader sr = new StreamReader("CODE.txt"))
+            while (true)
             {
-                code = Regex.Replace(sr.ReadToEnd(), @"\s", "");
-            }
+                i++;
 
-            Dictionary<Automaton, string> automatons = new Dictionary<Automaton, string>();
-            automatons.Add(special, "special");
-            automatons.Add(keyWord, "keyWord");
-            automatons.Add(constBool, "constBool");
-            automatons.Add(constDouble, "constDouble");
-            automatons.Add(constInt, "constInt");
-            automatons.Add(id, "id");
-            automatons.Add(assign, "assign");
-            automatons.Add(oper, "oper");
-            automatons.Add(bracket, "bracket");
-
-            while (iter < code.Length)
-            {
-
-                foreach (var automaton in automatons)
+                try
                 {
-                    state = Execute(automaton.Key, code, iter);
+                    string code = "";
+                    Pair<bool, int> state = new Pair<bool, int>(false, 0);
+                    int iter = 0;
 
-                    if (state.Value != 0)
+                    List<Pair<string, string>> tokens = new List<Pair<string, string>>();
+
+                    using (StreamReader sr = new StreamReader("CODE_" + i + ".txt"))
                     {
-                        tokens.Add(new Pair<string, string>(automaton.Value, code.Substring(iter, state.Value)));
-                        iter += state.Value;
-                        break;
+                        code = Regex.Replace(sr.ReadToEnd(), @"\s", "");
                     }
-                    else if (automaton.Value == automatons.Values.Last())
+
+                    Dictionary<Automaton, string> automatons = new Dictionary<Automaton, string>();
+                    automatons.Add(special, "special");
+                    automatons.Add(keyWord, "keyWord");
+                    automatons.Add(constBool, "constBool");
+                    automatons.Add(constDouble, "constDouble");
+                    automatons.Add(constInt, "constInt");
+                    automatons.Add(id, "id");
+                    automatons.Add(assign, "assign");
+                    automatons.Add(oper, "oper");
+                    automatons.Add(bracket, "bracket");
+
+                    while (iter < code.Length)
                     {
-                        throw new ArgumentException("Error: invalid code at '" + code[iter] + "...'");
+
+                        foreach (var automaton in automatons)
+                        {
+                            state = Execute(automaton.Key, code, iter);
+
+                            if (state.Value != 0)
+                            {
+                                tokens.Add(new Pair<string, string>(automaton.Value, code.Substring(iter, state.Value)));
+                                iter += state.Value;
+                                break;
+                            }
+                            else if (automaton.Value == automatons.Values.Last())
+                            {
+                                //throw new ArgumentException("Error: invalid code at '" + code[iter] + "...'");
+
+                                using (StreamWriter sr = new StreamWriter("CODE_" + i + "_RESULT.txt"))
+                                {
+                                    sr.Write("Error: invalid code at '" + code[iter] + "...' (character №" + iter + ")");
+                                }
+                            }
+                        }
+
+                        string json = JsonConvert.SerializeObject(tokens, Formatting.Indented);
+
+                        using (StreamWriter sr = new StreamWriter("CODE_" + i + "_RESULT.txt"))
+                        {
+                            sr.Write(json);
+                        }
                     }
                 }
-
-                string json = JsonConvert.SerializeObject(tokens, Formatting.Indented);
-
-                using (StreamWriter sr = new StreamWriter("RESULT.txt"))
+                catch (IOException)
                 {
-                    sr.Write(json);
+                    return;
                 }
             }
         }

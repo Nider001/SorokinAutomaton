@@ -1,0 +1,28 @@
+
+TEST RESULT FOR bracket.txt
+  INPUT: '('
+  SKIP: 0
+  EXPECTED RESULT: <True;1>
+  ACTUAL RESULT: <True;1>
+CORRECT!
+
+TEST RESULT FOR bracket.txt
+  INPUT: ')'
+  SKIP: 0
+  EXPECTED RESULT: <True;1>
+  ACTUAL RESULT: <True;1>
+CORRECT!
+
+TEST RESULT FOR bracket.txt
+  INPUT: '()'
+  SKIP: 0
+  EXPECTED RESULT: <False;1>
+  ACTUAL RESULT: <False;1>
+CORRECT!
+
+TEST RESULT FOR bracket.txt
+  INPUT: '(1'
+  SKIP: 0
+  EXPECTED RESULT: <False;1>
+  ACTUAL RESULT: <False;1>
+CORRECT!

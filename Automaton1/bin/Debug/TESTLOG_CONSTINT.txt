@@ -1,0 +1,28 @@
+
+TEST RESULT FOR const_int.txt
+  INPUT: '0'
+  SKIP: 0
+  EXPECTED RESULT: <True;1>
+  ACTUAL RESULT: <True;1>
+CORRECT!
+
+TEST RESULT FOR const_int.txt
+  INPUT: '123'
+  SKIP: 0
+  EXPECTED RESULT: <True;3>
+  ACTUAL RESULT: <True;3>
+CORRECT!
+
+TEST RESULT FOR const_int.txt
+  INPUT: '123.5'
+  SKIP: 0
+  EXPECTED RESULT: <False;3>
+  ACTUAL RESULT: <False;3>
+CORRECT!
+
+TEST RESULT FOR const_int.txt
+  INPUT: '12aa'
+  SKIP: 0
+  EXPECTED RESULT: <False;2>
+  ACTUAL RESULT: <False;2>
+CORRECT!

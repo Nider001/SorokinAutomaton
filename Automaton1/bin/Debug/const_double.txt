@@ -4,7 +4,7 @@
     {
       "Key": {
         "Key": "s0",
-        "Value": "[1-9]"
+        "Value": "[0-9]"
       },
       "Value": "d0"
     },
@@ -18,27 +18,13 @@
     {
       "Key": {
         "Key": "d0",
-        "Value": "."
-      },
-      "Value": "d2"
-    },
-    {
-      "Key": {
-        "Key": "s1",
-        "Value": "0"
+        "Value": "\\."
       },
       "Value": "d1"
     },
     {
       "Key": {
         "Key": "d1",
-        "Value": "."
-      },
-      "Value": "d2"
-    },
-    {
-      "Key": {
-        "Key": "d2",
         "Value": "[0-9]"
       },
       "Value": "f0"
@@ -49,13 +35,55 @@
         "Value": "[0-9]"
       },
       "Value": "f0"
+    },
+    {
+      "Key": {
+        "Key": "f0",
+        "Value": "[eE]"
+      },
+      "Value": "d2"
+    },
+    {
+      "Key": {
+        "Key": "d2",
+        "Value": "\\+"
+      },
+      "Value": "d3"
+    },
+    {
+      "Key": {
+        "Key": "d2",
+        "Value": "-"
+      },
+      "Value": "d3"
+    },
+    {
+      "Key": {
+        "Key": "d2",
+        "Value": "[0-9]"
+      },
+      "Value": "f1"
+    },
+    {
+      "Key": {
+        "Key": "d3",
+        "Value": "[0-9]"
+      },
+      "Value": "f1"
+    },
+    {
+      "Key": {
+        "Key": "f1",
+        "Value": "[0-9]"
+      },
+      "Value": "f1"
     }
   ],
   "Start": [
-    "s0",
-    "s1"
+    "s0"
   ],
   "Finish": [
-    "f0"
+    "f0",
+    "f1"
   ]
 }

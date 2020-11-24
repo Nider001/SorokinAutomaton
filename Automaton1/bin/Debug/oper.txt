@@ -69,7 +69,7 @@
         "Key": "f1",
         "Value": "="
       },
-      "Value": "f2"
+      "Value": "f0"
     },
     {
       "Key": {
@@ -98,12 +98,41 @@
         "Value": "-"
       },
       "Value": "f0"
+    },
+    {
+      "Key": {
+        "Key": "s3",
+        "Value": "&"
+      },
+      "Value": "d2"
+    },
+    {
+      "Key": {
+        "Key": "s3",
+        "Value": "|"
+      },
+      "Value": "d3"
+    },
+    {
+      "Key": {
+        "Key": "d2",
+        "Value": "&"
+      },
+      "Value": "f0"
+    },
+    {
+      "Key": {
+        "Key": "d3",
+        "Value": "|"
+      },
+      "Value": "f0"
     }
   ],
   "Start": [
     "s0",
     "s1",
-    "s2"
+    "s2",
+    "s3"
   ],
   "Finish": [
     "f0",

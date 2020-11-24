@@ -89,10 +89,12 @@ namespace Automaton1
 
         }
 
-        private void MoveState(string symbol, ref HashSet<string> currentStates, ref Pair<bool, int> result, ref bool irrivedToFinal)
+        private void MoveState(string symbol, ref HashSet<string> currentStates, ref Pair<bool, int> result, ref bool isInFinal)
         {
             try
             {
+                isInFinal = false;
+
                 bool countIncreasedThisTime = false;
 
                 var tempStates = currentStates;
@@ -110,9 +112,9 @@ namespace Automaton1
 
                     foreach (var temp in potentialTransitions)
                     {
-                        if (!irrivedToFinal && finish.Contains(temp.Value))
+                        if (finish.Contains(temp.Value))
                         {
-                            irrivedToFinal = true;
+                            isInFinal = true;
                         }
 
                         if (!currentStates.Contains(temp.Value))
@@ -149,27 +151,40 @@ namespace Automaton1
             HashSet<string> currentStates = new HashSet<string>(start);
             Pair<bool, int> result = new Pair<bool, int>(true, 0);
 
+            Pair<bool, int> frozenResult = new Pair<bool, int>(true, 0);
+
             char[] array = data.ToCharArray().Skip(skip).ToArray();
 
-            bool irrivedToFinal = currentStates.Any(x => finish.Contains(x)) ? true : false;
+            bool arrivedToFinal = currentStates.Any(x => finish.Contains(x)) ? true : false;
+            bool isInFinal = arrivedToFinal;
 
             foreach (char item in array)
             {
-                MoveState(item.ToString(), ref currentStates, ref result, ref irrivedToFinal);
+                MoveState(item.ToString(), ref currentStates, ref result, ref isInFinal);
+                arrivedToFinal = arrivedToFinal || isInFinal;
 
                 if (!result.Key)
                 {
                     break;
                 }
+                else if (isInFinal)
+                {
+                    frozenResult.Key = result.Key;
+                    frozenResult.Value = result.Value;
+                }
             }
 
-            if (!irrivedToFinal)
+            if (!arrivedToFinal)
             {
-                result.Key = false;
-                result.Value = 0;
+                frozenResult.Key = false;
+                frozenResult.Value = 0;
+            }
+            else if (!isInFinal)
+            {
+                frozenResult.Key = false;
             }
 
-            return result;
+            return frozenResult;
         }
     }
 }

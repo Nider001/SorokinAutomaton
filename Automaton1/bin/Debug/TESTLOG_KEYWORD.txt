@@ -1,0 +1,77 @@
+
+TEST RESULT FOR keyword.txt
+  INPUT: 'if'
+  SKIP: 0
+  EXPECTED RESULT: <True;2>
+  ACTUAL RESULT: <True;2>
+CORRECT!
+
+TEST RESULT FOR keyword.txt
+  INPUT: 'while'
+  SKIP: 0
+  EXPECTED RESULT: <True;5>
+  ACTUAL RESULT: <True;5>
+CORRECT!
+
+TEST RESULT FOR keyword.txt
+  INPUT: 'for'
+  SKIP: 0
+  EXPECTED RESULT: <True;3>
+  ACTUAL RESULT: <True;3>
+CORRECT!
+
+TEST RESULT FOR keyword.txt
+  INPUT: 'bool'
+  SKIP: 0
+  EXPECTED RESULT: <True;4>
+  ACTUAL RESULT: <True;4>
+CORRECT!
+
+TEST RESULT FOR keyword.txt
+  INPUT: 'else'
+  SKIP: 0
+  EXPECTED RESULT: <True;4>
+  ACTUAL RESULT: <True;4>
+CORRECT!
+
+TEST RESULT FOR keyword.txt
+  INPUT: 'int'
+  SKIP: 0
+  EXPECTED RESULT: <True;3>
+  ACTUAL RESULT: <True;3>
+CORRECT!
+
+TEST RESULT FOR keyword.txt
+  INPUT: 'double'
+  SKIP: 0
+  EXPECTED RESULT: <True;6>
+  ACTUAL RESULT: <True;6>
+CORRECT!
+
+TEST RESULT FOR keyword.txt
+  INPUT: 'var'
+  SKIP: 0
+  EXPECTED RESULT: <True;3>
+  ACTUAL RESULT: <True;3>
+CORRECT!
+
+TEST RESULT FOR keyword.txt
+  INPUT: 'ifs'
+  SKIP: 0
+  EXPECTED RESULT: <False;2>
+  ACTUAL RESULT: <False;2>
+CORRECT!
+
+TEST RESULT FOR keyword.txt
+  INPUT: 'whil'
+  SKIP: 0
+  EXPECTED RESULT: <False;0>
+  ACTUAL RESULT: <False;0>
+CORRECT!
+
+TEST RESULT FOR keyword.txt
+  INPUT: 'integer'
+  SKIP: 0
+  EXPECTED RESULT: <False;3>
+  ACTUAL RESULT: <False;3>
+CORRECT!

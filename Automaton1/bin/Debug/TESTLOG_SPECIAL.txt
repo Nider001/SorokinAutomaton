@@ -1,0 +1,28 @@
+
+TEST RESULT FOR special.txt
+  INPUT: ';'
+  SKIP: 0
+  EXPECTED RESULT: <True;1>
+  ACTUAL RESULT: <True;1>
+CORRECT!
+
+TEST RESULT FOR special.txt
+  INPUT: ';aaa'
+  SKIP: 0
+  EXPECTED RESULT: <False;1>
+  ACTUAL RESULT: <False;1>
+CORRECT!
+
+TEST RESULT FOR special.txt
+  INPUT: '{'
+  SKIP: 0
+  EXPECTED RESULT: <True;1>
+  ACTUAL RESULT: <True;1>
+CORRECT!
+
+TEST RESULT FOR special.txt
+  INPUT: '}aaa'
+  SKIP: 0
+  EXPECTED RESULT: <False;1>
+  ACTUAL RESULT: <False;1>
+CORRECT!

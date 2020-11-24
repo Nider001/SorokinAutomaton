@@ -1,0 +1,28 @@
+
+TEST RESULT FOR id.txt
+  INPUT: '_admin'
+  SKIP: 0
+  EXPECTED RESULT: <True;6>
+  ACTUAL RESULT: <True;6>
+CORRECT!
+
+TEST RESULT FOR id.txt
+  INPUT: 'art_123'
+  SKIP: 0
+  EXPECTED RESULT: <True;7>
+  ACTUAL RESULT: <True;7>
+CORRECT!
+
+TEST RESULT FOR id.txt
+  INPUT: '0number'
+  SKIP: 0
+  EXPECTED RESULT: <False;0>
+  ACTUAL RESULT: <False;0>
+CORRECT!
+
+TEST RESULT FOR id.txt
+  INPUT: 'admin+1'
+  SKIP: 0
+  EXPECTED RESULT: <False;5>
+  ACTUAL RESULT: <False;5>
+CORRECT!

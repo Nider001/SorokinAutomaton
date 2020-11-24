@@ -1,0 +1,28 @@
+
+TEST RESULT FOR const_bool.txt
+  INPUT: 'true'
+  SKIP: 0
+  EXPECTED RESULT: <True;4>
+  ACTUAL RESULT: <True;4>
+CORRECT!
+
+TEST RESULT FOR const_bool.txt
+  INPUT: 'falsee'
+  SKIP: 0
+  EXPECTED RESULT: <False;5>
+  ACTUAL RESULT: <False;5>
+CORRECT!
+
+TEST RESULT FOR const_bool.txt
+  INPUT: 'tru'
+  SKIP: 0
+  EXPECTED RESULT: <False;0>
+  ACTUAL RESULT: <False;0>
+CORRECT!
+
+TEST RESULT FOR const_bool.txt
+  INPUT: 'fals'
+  SKIP: 0
+  EXPECTED RESULT: <False;0>
+  ACTUAL RESULT: <False;0>
+CORRECT!

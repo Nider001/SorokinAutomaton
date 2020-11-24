@@ -1,0 +1,56 @@
+
+TEST RESULT FOR const_double.txt
+  INPUT: '0.0'
+  SKIP: 0
+  EXPECTED RESULT: <True;3>
+  ACTUAL RESULT: <True;3>
+CORRECT!
+
+TEST RESULT FOR const_double.txt
+  INPUT: '12.5'
+  SKIP: 0
+  EXPECTED RESULT: <True;4>
+  ACTUAL RESULT: <True;4>
+CORRECT!
+
+TEST RESULT FOR const_double.txt
+  INPUT: '11.5E2'
+  SKIP: 0
+  EXPECTED RESULT: <True;6>
+  ACTUAL RESULT: <True;6>
+CORRECT!
+
+TEST RESULT FOR const_double.txt
+  INPUT: '11.5e-2'
+  SKIP: 0
+  EXPECTED RESULT: <True;7>
+  ACTUAL RESULT: <True;7>
+CORRECT!
+
+TEST RESULT FOR const_double.txt
+  INPUT: '55.'
+  SKIP: 0
+  EXPECTED RESULT: <False;0>
+  ACTUAL RESULT: <False;0>
+CORRECT!
+
+TEST RESULT FOR const_double.txt
+  INPUT: '.39'
+  SKIP: 0
+  EXPECTED RESULT: <False;0>
+  ACTUAL RESULT: <False;0>
+CORRECT!
+
+TEST RESULT FOR const_double.txt
+  INPUT: '7.e+4'
+  SKIP: 0
+  EXPECTED RESULT: <False;0>
+  ACTUAL RESULT: <False;0>
+CORRECT!
+
+TEST RESULT FOR const_double.txt
+  INPUT: '10.2e+'
+  SKIP: 0
+  EXPECTED RESULT: <False;4>
+  ACTUAL RESULT: <False;4>
+CORRECT!
